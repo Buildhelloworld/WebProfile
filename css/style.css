@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", sans-serif;
+}
+.clearfix{
+   clear: both;
+}
+.container{
+   width: 1518px;
+   margin: 0 auto;
+
+}
+.menubar {
+   width: 100% ;
+   height: 50px;
+   background: #f5f3e7;
+   box-shadow: 0 0 10px #f5f3e7 ;
+}
+
+.menubar .logo{
+   float: left;
+}
+.menubar h1 {
+   margin: 0;
+   font-size: 30px;
+   font-weight: normal;
+   padding: 6px;
+   padding-left: 60px;
+}
+
+.menubar ul.menu {
+   list-style: none;
+   float: right;
+}
+
+.menubar ul.menu li {
+   float: left;
+   margin-right: 20px;
+}
+.menubar ul.menu li a {
+   text-decoration: none;
+   color: #323A60;
+   border-bottom: 2px #aa9377 solid transparent;
+   padding-bottom: 20px;
+   transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover {
+   border-bottom: 2px solid #58a6b0;
+   padding-bottom: 0;
+}
+.header {
+   width: 100%;
+   background: url(../header1.png) no-repeat;
+   height: 700px;
+   background-size: cover;
+   background-position: center center;
+}
+.header_area pre {
+   margin: 0 auto;
+   font-size: 16px;
+   padding-top: 450px;
+   padding-right: 30px;
+   padding-left: 90px;
+}
+.profileArea {
+   width: 100%;
+   background: url(../page3.png) no-repeat;
+   height: 780px;
+   background-size: cover;
+   background-position: center center;
+   margin-top: 0px;
+   
+}
+.Slides {
+   width: 500px;
+   height: 350px;
+   margin-top: 0px;
+   overflow: hidden;
+   margin-left: 920px;
+   margin-top: -80px;
+   
+}
+.Slides figure img {
+   width: 50%;
+   height: 350px;
+   float: right;
+}  
+
+.Slides figure{
+   position: relative;
+   width: 325px;
+   margin: 0px;
+   animation: krutom 15s infinite linear;
+}
+
+@keyframes krutom{
+   0%{top: 0% ;}
+   15%{top: 0% ;}
+   20%{top: -100% ;}
+   35%{top: -100% ;}
+   40%{top: -200% ;}
+   60%{top: -200% ;}
+   65%{top: -300% ;}
+   80%{top: -300% ;}
+   85%{top: -400% ;}
+   100%{top: -400% ;}
+}
+
+.profileArea h1 {
+   font-size: 40px;
+   font-family: "Times New Roman", Times, serif;
+   margin: 0px;
+  
+   
+}
+
+
+   
+
